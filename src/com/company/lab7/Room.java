@@ -24,4 +24,9 @@ public class Room {
     public void setSquare(int square) {
         this.square = square;
     }
+
+    @Override
+    public String toString() {
+        return "Room type is " + roomType + ". Square is " + square;
+    }
 }
