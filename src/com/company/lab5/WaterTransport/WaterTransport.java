@@ -2,7 +2,7 @@ package com.company.lab5.WaterTransport;
 
 import com.company.lab5.Transport;
 
-abstract class WaterTransport extends Transport {
+public abstract class WaterTransport extends Transport {
     private String typeWaterTransport;
     private int loadCapacity;
 
