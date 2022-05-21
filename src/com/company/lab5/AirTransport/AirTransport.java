@@ -1,11 +1,14 @@
-package com.company.lab1;
+package com.company.lab5.AirTransport;
+
+
+import com.company.lab5.Transport;
 
 public abstract class AirTransport extends Transport {
     private int maxFlightAltitude;
     private int maxFlightDistance;
 
     @Override
-    String getDescription() {
+    public String getDescription() {
         return "This is Air Transport class";
     }
 
