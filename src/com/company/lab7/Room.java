@@ -27,6 +27,7 @@ public class Room {
 
     @Override
     public String toString() {
-        return "Room type is " + roomType + ". Square is " + square;
+        return "Room type is " + roomType + ". Square is " + square + ".";
+
     }
 }
